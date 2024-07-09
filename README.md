@@ -1,4 +1,4 @@
-# NVIM
+# nvim
 
 This contains my neovim config. To use this config, run the following commands:
 
@@ -11,6 +11,6 @@ mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 
-
-git clone  ~/.config/nvim
+# clone the repo
+git clone https://github.com/prnvbn/nvim  ~/.config/nvim
 ```
