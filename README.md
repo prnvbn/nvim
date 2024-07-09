@@ -1,5 +1,8 @@
 # nvim
 
+
+![image](https://github.com/prnvbn/nvim/assets/55818107/4a438718-4919-4db6-8ad1-c2dc4e26c814)
+
 This contains my neovim config. To use this config, run the following commands:
 
 ```bash
