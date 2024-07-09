@@ -34,6 +34,7 @@ This is mostly for me to justify my choices to my future self
 
 - Lazy.nvim vs packer.nvim: lazy seems a lot cleaner once you get used to how to configure stuff properly. Also, the author of packer is using lazy now ([src](https://github.com/wbthomason/dotfiles/blob/main/dot_config/nvim/lua/plugins.lua) )
 - file tree/explorer: I used neo tree for no good reason tbh, I do wanna try out maybe [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) , [oil](https://github.com/stevearc/oil.nvim) and strauight netrw once.
+- Git: I am using lazygit as it seemed very beginner friendly. I want to check out neogit and fugitive.
 
 ## Improvements/TODO
 
