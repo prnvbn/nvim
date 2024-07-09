@@ -31,10 +31,16 @@ Known *issues* are mostly dependencies that need to be installed.
 
 This is mostly for me to justify my choices to my future self
 
+### Plugins
+
 - Lazy.nvim vs packer.nvim: lazy seems a lot cleaner once you get used to how to configure stuff properly. Also, the author of packer is using lazy now ([src](https://github.com/wbthomason/dotfiles/blob/main/dot_config/nvim/lua/plugins.lua) )
 - file tree/explorer: I used neo tree for no good reason tbh, I do wanna try out maybe [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) , [oil](https://github.com/stevearc/oil.nvim) and strauight netrw once.
 - Git: I am using lazygit as it seemed very beginner friendly. I want to check out neogit and fugitive.
 - Terminal: I am using toggleterm. I did consider a terminal multiplexer like [zellij](https://github.com/zellij-org/zellij). However, the default zellij keybindings clash with my nvim keybinds. Maybe I will get around to resolving that and use zellij instead. (I am not using tmux.)
+
+### Other
+
+- Anything added in the config is auto imported (see lua/config/init.lua).
 
 ## Improvements/TODO
 
