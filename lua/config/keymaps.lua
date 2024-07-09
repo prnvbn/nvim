@@ -2,13 +2,13 @@ local opts = { noremap = true, silent = true }
 
 -- Wrapper function for setting keymaps with descriptions
 local function keymap(mode, new, old, _opts, description)
-	if description then
-		if not _opts then
-			_opts = {}
-		end
-		_opts.desc = description
-	end
-	vim.api.nvim_set_keymap(mode, new, old, _opts)
+  if description then
+    if not _opts then
+      _opts = {}
+    end
+    _opts.desc = description
+  end
+  vim.api.nvim_set_keymap(mode, new, old, _opts)
 end
 
 -- window creation
