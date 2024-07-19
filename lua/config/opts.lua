@@ -5,6 +5,7 @@ vim.opt.confirm = true    -- confirm to save changes before exiting modified buf
 vim.opt.cursorline = true -- Enable highlighting of the current line
 vim.opt.list = true       -- Show some invisible characters (tabs...
 vim.opt.number = true     -- Print line number
+vim.opt.relativenumber = true
 vim.opt.shiftround = true -- Round indent
 
 vim.g.markdown_recommended_style = 0
