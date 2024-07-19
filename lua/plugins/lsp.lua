@@ -35,6 +35,9 @@ return {
       lspconfig.marksman.setup({
         capabilities = capabilities,
       })
+      lspconfig.ruff_lsp.setup({
+        capabilities = capabilities,
+      })
     end,
   },
   {
